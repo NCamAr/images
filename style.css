@@ -1,0 +1,58 @@
+/* IMAGES */
+
+html {
+	background-color: #aaebff;
+}
+
+body 
+
+header {
+	padding: 0.5em;
+}
+
+header img {
+	border-radius: 62%;
+	max-width: 100%;
+}
+
+h1 {
+	position: fixed;
+    left: 1%;
+    bottom: 1%;
+    text-transform: uppercase;
+    mix-blend-mode: darken;
+    font-size: 4em;
+    text-decoration-line: underline;
+    color: #4155fb;
+    transform: skewY(-12deg);
+    filter: opacity(0.5);
+    font-family: 'Fredericka the Great', cursive;
+
+}
+
+figure {
+	margin: 0;
+	padding: 0.2em;
+	width: calc(25% - 1em);
+	font-family: 'Courgette', cursive;
+}
+
+img {
+	max-width: 75%;
+	height: auto;
+	transition: border-radius 0.5s;
+	transform: translateY(0);
+}
+
+img:hover {
+	filter: grayscale(100%);
+	border-radius: 20%;
+	transform: translateY(-0.5em);
+
+}
+
+main {
+display: flex;
+flex-direction: row-reverse;
+}
+
